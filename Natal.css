@@ -1,0 +1,30 @@
+.countdown{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.countdown div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 150px;
+}
+.countdown h1{
+    text-shadow: 0 0 10px whitesmoke;
+    font: 700 40px 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(natal.png);
+    background-repeat: no-repeat;
+    color: white;
+}

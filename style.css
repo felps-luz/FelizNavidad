@@ -1,0 +1,26 @@
+body{
+    font-family: arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+#contador{
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#barraProgresso {
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#progresso{
+    height: 100%;
+    width: 0;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    transition: 1s linear;
+}
