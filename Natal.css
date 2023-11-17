@@ -1,11 +1,19 @@
 .countdown{
+    border-radius: 12px;
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.607);
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 710px;
     
 }
 .countdown div{
+    margin-left: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+    background-color: rgba(15, 209, 15, 0.582);
     display: flex;
     flex-direction: row;
     justify-content: center;
